@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		809683EC1BA03C80004C4AF6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809683EA1BA03C80004C4AF6 /* MainViewController.m */; };
+		809683ED1BA03C80004C4AF6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809683EB1BA03C80004C4AF6 /* MainViewController.xib */; };
 		80D5F3831BA024230084A69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3821BA024230084A69D /* main.m */; };
 		80D5F3861BA024230084A69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3851BA024230084A69D /* AppDelegate.m */; };
 		80D5F3881BA024230084A69D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D5F3871BA024230084A69D /* Images.xcassets */; };
@@ -32,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		58BB1DA9BD2ADFE8B63C5702 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		809683E91BA03C80004C4AF6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		809683EA1BA03C80004C4AF6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		809683EB1BA03C80004C4AF6 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		80D5F37D1BA024230084A69D /* WConfirmViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WConfirmViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D5F3811BA024230084A69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D5F3821BA024230084A69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +109,9 @@
 				80D5F3871BA024230084A69D /* Images.xcassets */,
 				80D5F3891BA024230084A69D /* LaunchScreen.xib */,
 				80D5F3801BA024230084A69D /* Supporting Files */,
+				809683E91BA03C80004C4AF6 /* MainViewController.h */,
+				809683EA1BA03C80004C4AF6 /* MainViewController.m */,
+				809683EB1BA03C80004C4AF6 /* MainViewController.xib */,
 			);
 			path = WConfirmViewDemo;
 			sourceTree = "<group>";
@@ -267,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D5F38B1BA024230084A69D /* LaunchScreen.xib in Resources */,
+				809683ED1BA03C80004C4AF6 /* MainViewController.xib in Resources */,
 				80D5F3881BA024230084A69D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +330,7 @@
 				80D5F3861BA024230084A69D /* AppDelegate.m in Sources */,
 				80D5F3AA1BA02A780084A69D /* UIView+Border.m in Sources */,
 				80D5F3B11BA02DC90084A69D /* FXBlurView.m in Sources */,
+				809683EC1BA03C80004C4AF6 /* MainViewController.m in Sources */,
 				80D5F3AD1BA02D380084A69D /* WBackView.m in Sources */,
 				80D5F3A71BA0284B0084A69D /* UIImage+Color.m in Sources */,
 				80D5F3831BA024230084A69D /* main.m in Sources */,

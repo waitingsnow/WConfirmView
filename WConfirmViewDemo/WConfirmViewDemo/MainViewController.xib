@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-Nn-bYP">
+                    <rect key="frame" x="216" y="156" width="168" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="168" id="CH7-cE-KMm"/>
+                        <constraint firstAttribute="height" constant="48" id="cCk-mJ-Mdc"/>
+                    </constraints>
+                    <state key="normal" title="单个按钮">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showConfirmView:" destination="-1" eventType="touchUpInside" id="GkX-IV-JDV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfz-zN-90f">
+                    <rect key="frame" x="216" y="284" width="168" height="48"/>
+                    <state key="normal" title="两个按钮">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showConfirmView:" destination="-1" eventType="touchUpInside" id="aru-52-aLo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTD-Ov-eTY">
+                    <rect key="frame" x="216" y="412" width="168" height="48"/>
+                    <state key="normal" title="多个按钮">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showConfirmView:" destination="-1" eventType="touchUpInside" id="oJ9-st-VWI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="leading" secondItem="qTD-Ov-eTY" secondAttribute="leading" id="2Ls-FO-zYC"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="height" secondItem="yfz-zN-90f" secondAttribute="height" id="8YH-ZZ-pjU"/>
+                <constraint firstItem="yfz-zN-90f" firstAttribute="top" secondItem="Dfg-Nn-bYP" secondAttribute="bottom" constant="80" id="D4m-SA-DET"/>
+                <constraint firstItem="qTD-Ov-eTY" firstAttribute="top" secondItem="yfz-zN-90f" secondAttribute="bottom" constant="80" id="H1v-wo-fol"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="leading" secondItem="yfz-zN-90f" secondAttribute="leading" id="YzD-vn-TWm"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="width" secondItem="yfz-zN-90f" secondAttribute="width" id="cs3-Aa-5cJ"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="156" id="cth-1v-p2i"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="height" secondItem="qTD-Ov-eTY" secondAttribute="height" id="mcB-Rz-lum"/>
+                <constraint firstAttribute="centerX" secondItem="Dfg-Nn-bYP" secondAttribute="centerX" id="mpb-S5-L2U"/>
+                <constraint firstItem="Dfg-Nn-bYP" firstAttribute="width" secondItem="qTD-Ov-eTY" secondAttribute="width" id="opk-ys-Hvv"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "WConfirmView/WConfirmView.h"
+#import "MainViewController.h"
 
-@interface AppDelegate () <WConfirmViewDelegate>
+@interface AppDelegate ()
 
 @end
 
@@ -22,8 +22,7 @@
 	self.window.backgroundColor = [UIColor whiteColor];
 	[self.window makeKeyAndVisible];
 	
-	
-	[WConfirmView showConfirmViewWithTitle:@"温馨提示" andContent:@"您的女朋友到货了，请您去前台签收" andCancelStr:@"不要" andOtherBtn:@[@"快拿来!"] andDelegate:self];
+	self.window.rootViewController = [[MainViewController alloc] init];
 	
 	return YES;
 }
@@ -48,14 +47,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (void)wconfirmView:(WConfirmView *)confirmView didClickedButtonAtIndex:(NSInteger)index {
-	
-}
-
-- (void)didClickedCancelButtonWithWconfirmView:(WConfirmView *)confirmView{
-	
 }
 
 @end

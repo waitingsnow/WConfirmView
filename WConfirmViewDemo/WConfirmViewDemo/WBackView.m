@@ -39,7 +39,7 @@ typedef enum : NSUInteger {
 		_defaultBackgroundView = [[super allocWithZone:NULL] initWithFrame:CGRectMake(0, 0, WScreenWidth, WScreenHeight)];
 		[_defaultBackgroundView preConfig];
 		[_defaultBackgroundView configBlur];
-//		[_defaultBackgroundView configUnderView];
+		[_defaultBackgroundView configUnderView];
 	});
 	_defaultBackgroundView.frame = CGRectMake(0, 0, WScreenWidth, WScreenHeight);
 	return _defaultBackgroundView;
@@ -58,18 +58,16 @@ typedef enum : NSUInteger {
 	self.dynamic = NO;
 	self.blurEnabled = YES;
 	self.blurRadius = 5.f;
-	self.tintColor = [UIColor colorWithWhite:0.000 alpha:0.670];
-//	self.layer.backgroundColor = [UIColor blackColor].CGColor;
+	self.tintColor = [UIColor clearColor];
 }
 
 - (void)configUnderView{
 	UIView *underView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WScreenWidth, WScreenHeight)];
 	underView.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.670];
-//	[self addSubview:underView];
-	self.underlyingView = underView;
-//	[underView mas_makeConstraints:^(MASConstraintMaker *make) {
-//		make.edges.equalTo(self);
-//	}];
+	[self addSubview:underView];
+	[underView mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.edges.equalTo(self);
+	}];
 }
 
 + (void)popView{
