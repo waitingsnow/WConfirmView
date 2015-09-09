@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D5F3831BA024230084A69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3821BA024230084A69D /* main.m */; };
+		80D5F3861BA024230084A69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3851BA024230084A69D /* AppDelegate.m */; };
+		80D5F3881BA024230084A69D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D5F3871BA024230084A69D /* Images.xcassets */; };
+		80D5F38B1BA024230084A69D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D5F3891BA024230084A69D /* LaunchScreen.xib */; };
+		80D5F3971BA024230084A69D /* WConfirmViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3961BA024230084A69D /* WConfirmViewDemoTests.m */; };
+		80D5F3A41BA026310084A69D /* WConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3A31BA026310084A69D /* WConfirmView.m */; };
+		80D5F3A71BA0284B0084A69D /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3A61BA0284B0084A69D /* UIImage+Color.m */; };
+		80D5F3AA1BA02A780084A69D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3A91BA02A780084A69D /* UIView+Border.m */; };
+		80D5F3AD1BA02D380084A69D /* WBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3AC1BA02D380084A69D /* WBackView.m */; };
+		80D5F3B11BA02DC90084A69D /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5F3B01BA02DC90084A69D /* FXBlurView.m */; };
+		E3CB126E4305CAEE6EB2DADB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BB1DA9BD2ADFE8B63C5702 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D5F3911BA024230084A69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D5F3751BA024230084A69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D5F37C1BA024230084A69D;
+			remoteInfo = WConfirmViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58BB1DA9BD2ADFE8B63C5702 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D5F37D1BA024230084A69D /* WConfirmViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WConfirmViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D5F3811BA024230084A69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D5F3821BA024230084A69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D5F3841BA024230084A69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D5F3851BA024230084A69D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D5F3871BA024230084A69D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80D5F38A1BA024230084A69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80D5F3901BA024230084A69D /* WConfirmViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WConfirmViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D5F3951BA024230084A69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D5F3961BA024230084A69D /* WConfirmViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WConfirmViewDemoTests.m; sourceTree = "<group>"; };
+		80D5F3A21BA026310084A69D /* WConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WConfirmView.h; sourceTree = "<group>"; };
+		80D5F3A31BA026310084A69D /* WConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WConfirmView.m; sourceTree = "<group>"; };
+		80D5F3A51BA0284B0084A69D /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		80D5F3A61BA0284B0084A69D /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		80D5F3A81BA02A780084A69D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
+		80D5F3A91BA02A780084A69D /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
+		80D5F3AB1BA02D380084A69D /* WBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBackView.h; sourceTree = "<group>"; };
+		80D5F3AC1BA02D380084A69D /* WBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBackView.m; sourceTree = "<group>"; };
+		80D5F3AF1BA02DC90084A69D /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		80D5F3B01BA02DC90084A69D /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		A2E6726EE8A3EEE4D9364489 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E30F6631FBD7111A2034F918 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D5F37A1BA024230084A69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CB126E4305CAEE6EB2DADB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5F38D1BA024230084A69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D5F3741BA024230084A69D = {
+			isa = PBXGroup;
+			children = (
+				80D5F37F1BA024230084A69D /* WConfirmViewDemo */,
+				80D5F3931BA024230084A69D /* WConfirmViewDemoTests */,
+				80D5F37E1BA024230084A69D /* Products */,
+				95EC06C1071AF3E0C041D058 /* Pods */,
+				EF6A9DC4A6DF8013B8799F12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80D5F37E1BA024230084A69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F37D1BA024230084A69D /* WConfirmViewDemo.app */,
+				80D5F3901BA024230084A69D /* WConfirmViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D5F37F1BA024230084A69D /* WConfirmViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3A01BA025FA0084A69D /* Lib */,
+				80D5F3841BA024230084A69D /* AppDelegate.h */,
+				80D5F3851BA024230084A69D /* AppDelegate.m */,
+				80D5F3871BA024230084A69D /* Images.xcassets */,
+				80D5F3891BA024230084A69D /* LaunchScreen.xib */,
+				80D5F3801BA024230084A69D /* Supporting Files */,
+			);
+			path = WConfirmViewDemo;
+			sourceTree = "<group>";
+		};
+		80D5F3801BA024230084A69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3811BA024230084A69D /* Info.plist */,
+				80D5F3821BA024230084A69D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D5F3931BA024230084A69D /* WConfirmViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3961BA024230084A69D /* WConfirmViewDemoTests.m */,
+				80D5F3941BA024230084A69D /* Supporting Files */,
+			);
+			path = WConfirmViewDemoTests;
+			sourceTree = "<group>";
+		};
+		80D5F3941BA024230084A69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3951BA024230084A69D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D5F3A01BA025FA0084A69D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3A51BA0284B0084A69D /* UIImage+Color.h */,
+				80D5F3A61BA0284B0084A69D /* UIImage+Color.m */,
+				80D5F3A81BA02A780084A69D /* UIView+Border.h */,
+				80D5F3A91BA02A780084A69D /* UIView+Border.m */,
+				80D5F3AB1BA02D380084A69D /* WBackView.h */,
+				80D5F3AC1BA02D380084A69D /* WBackView.m */,
+				80D5F3AE1BA02DC90084A69D /* FXBlurView */,
+				80D5F3A11BA0261B0084A69D /* WConfirmView */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		80D5F3A11BA0261B0084A69D /* WConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3A21BA026310084A69D /* WConfirmView.h */,
+				80D5F3A31BA026310084A69D /* WConfirmView.m */,
+			);
+			path = WConfirmView;
+			sourceTree = "<group>";
+		};
+		80D5F3AE1BA02DC90084A69D /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				80D5F3AF1BA02DC90084A69D /* FXBlurView.h */,
+				80D5F3B01BA02DC90084A69D /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		95EC06C1071AF3E0C041D058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E30F6631FBD7111A2034F918 /* Pods.debug.xcconfig */,
+				A2E6726EE8A3EEE4D9364489 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6A9DC4A6DF8013B8799F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58BB1DA9BD2ADFE8B63C5702 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D5F37C1BA024230084A69D /* WConfirmViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D5F39A1BA024230084A69D /* Build configuration list for PBXNativeTarget "WConfirmViewDemo" */;
+			buildPhases = (
+				37E47D1B3E8242A25AB78B02 /* Check Pods Manifest.lock */,
+				80D5F3791BA024230084A69D /* Sources */,
+				80D5F37A1BA024230084A69D /* Frameworks */,
+				80D5F37B1BA024230084A69D /* Resources */,
+				E324A833CDBC0DD88E721C1E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WConfirmViewDemo;
+			productName = WConfirmViewDemo;
+			productReference = 80D5F37D1BA024230084A69D /* WConfirmViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D5F38F1BA024230084A69D /* WConfirmViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D5F39D1BA024230084A69D /* Build configuration list for PBXNativeTarget "WConfirmViewDemoTests" */;
+			buildPhases = (
+				80D5F38C1BA024230084A69D /* Sources */,
+				80D5F38D1BA024230084A69D /* Frameworks */,
+				80D5F38E1BA024230084A69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D5F3921BA024230084A69D /* PBXTargetDependency */,
+			);
+			name = WConfirmViewDemoTests;
+			productName = WConfirmViewDemoTests;
+			productReference = 80D5F3901BA024230084A69D /* WConfirmViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D5F3751BA024230084A69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yojianzhi;
+				TargetAttributes = {
+					80D5F37C1BA024230084A69D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80D5F38F1BA024230084A69D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80D5F37C1BA024230084A69D;
+					};
+				};
+			};
+			buildConfigurationList = 80D5F3781BA024230084A69D /* Build configuration list for PBXProject "WConfirmViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D5F3741BA024230084A69D;
+			productRefGroup = 80D5F37E1BA024230084A69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D5F37C1BA024230084A69D /* WConfirmViewDemo */,
+				80D5F38F1BA024230084A69D /* WConfirmViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D5F37B1BA024230084A69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5F38B1BA024230084A69D /* LaunchScreen.xib in Resources */,
+				80D5F3881BA024230084A69D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5F38E1BA024230084A69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E47D1B3E8242A25AB78B02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E324A833CDBC0DD88E721C1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D5F3791BA024230084A69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5F3861BA024230084A69D /* AppDelegate.m in Sources */,
+				80D5F3AA1BA02A780084A69D /* UIView+Border.m in Sources */,
+				80D5F3B11BA02DC90084A69D /* FXBlurView.m in Sources */,
+				80D5F3AD1BA02D380084A69D /* WBackView.m in Sources */,
+				80D5F3A71BA0284B0084A69D /* UIImage+Color.m in Sources */,
+				80D5F3831BA024230084A69D /* main.m in Sources */,
+				80D5F3A41BA026310084A69D /* WConfirmView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D5F38C1BA024230084A69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5F3971BA024230084A69D /* WConfirmViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D5F3921BA024230084A69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D5F37C1BA024230084A69D /* WConfirmViewDemo */;
+			targetProxy = 80D5F3911BA024230084A69D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D5F3891BA024230084A69D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D5F38A1BA024230084A69D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D5F3981BA024230084A69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80D5F3991BA024230084A69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D5F39B1BA024230084A69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30F6631FBD7111A2034F918 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WConfirmViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80D5F39C1BA024230084A69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E6726EE8A3EEE4D9364489 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WConfirmViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80D5F39E1BA024230084A69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WConfirmViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WConfirmViewDemo.app/WConfirmViewDemo";
+			};
+			name = Debug;
+		};
+		80D5F39F1BA024230084A69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WConfirmViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WConfirmViewDemo.app/WConfirmViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D5F3781BA024230084A69D /* Build configuration list for PBXProject "WConfirmViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D5F3981BA024230084A69D /* Debug */,
+				80D5F3991BA024230084A69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D5F39A1BA024230084A69D /* Build configuration list for PBXNativeTarget "WConfirmViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D5F39B1BA024230084A69D /* Debug */,
+				80D5F39C1BA024230084A69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D5F39D1BA024230084A69D /* Build configuration list for PBXNativeTarget "WConfirmViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D5F39E1BA024230084A69D /* Debug */,
+				80D5F39F1BA024230084A69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D5F3751BA024230084A69D /* Project object */;
+}
